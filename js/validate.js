@@ -1,17 +1,21 @@
 function getResult()
 {
-    var x=parseInt(form1.english.value);
-    var y=parseInt(form1.gk.value);
-    var z=parseInt(form1.maths.value);
+    var x=(form1.english.value);
+    var y=(form1.gk.value);
+    var z=(form1.maths.value);
+    var a=parseInt(x);
+    var b=parseInt(y);
+    var c=parseInt(z);
     if(x==""||y==""||z=="")
     {
         alert("please enter a value");
-       
+       return false;
     }
-  else{
-      var total=x+y+z;
+  else
+    {
+      var total=a+b+c;
       var percentage=((total/300)*100);
-      var highest=Math.max(x,y,z);
+      var highest=Math.max(a,b,c);
   form1.totalMarks.value=total;
   form1.percentage.value=percentage;
   form1.highestMarks.value=highest;
