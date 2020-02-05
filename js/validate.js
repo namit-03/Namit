@@ -17,7 +17,7 @@ function getResult()
   form1.highestMarks.value=highest;
 return false;   
 } 
-}        
+}    
 function fun1(){
     alert("this is the button");
        }
