@@ -2,11 +2,11 @@ function getResult()
 {
     var x=parseInt(form1.english.value);
     var y=parseInt(form1.gk.value);
-    var a=parseInt(form1.maths.value);
+    var z=parseInt(form1.maths.value);
     if(x==""||y==""||z=="")
     {
         alert("please enter a value");
-        return false;
+       
     }
   else{
       var total=x+y+z;
@@ -17,7 +17,7 @@ function getResult()
   form1.highestMarks.value=highest;
 return false;   
 } 
-}    
+}        
 function fun1(){
     alert("this is the button");
        }
